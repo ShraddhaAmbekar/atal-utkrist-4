@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+body {
+ font-family: 'Poppins', sans-serif !important;
+}
+.navbar{
+width:100vw;
+padding:100px;
+position: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-nav{
+  padding: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-item{
+  font-size: 20px;
+  font-weight: 800;
+
+}
+/* Home */
+.home{
+  padding-top: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+margin-bottom: 100px;
+}
+.hero-container{
+height: 800px;
+
+
+}
+
+.hero-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;  /* Slightly bold for heading */
+  font-size: 84px;
+  line-height: 1.1;
+  margin: 0;
+  color:black
+}
+
+.hero-subtext {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;  
+  font-size: 20px;
+  margin-top: 24px;
+  color: #000; 
+}
+
+.hero-subtext2 {
+   font-family: 'Poppins', sans-serif;
+  font-weight: 600;  
+  font-size: 20px;
+  margin-top:150px;
+
+ 
+}
+.img-container img{
+  width:800px;
+  height: 800px;
+ text-align: center;
+}
+
+/* section1 about us */
+.section-container{
+ padding:100px;
+ height: 90vh;
+}
+
+.section-heading{
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  margin:  50px 0px;
+  
+}
+
+.section-img img{
+width:100%;
+height: 90vh;
+}
+
+.section-text{
+   font-family: 'Poppins', sans-serif;
+  font-weight: 600;  
+  font-size: 18px;
+  margin-top: 30px;
+
+}
+
+.home-btn{
+  margin: 50px 0;
+background-color: #000;
+color:white;
+width: 150px;
+border-radius: 50px;
+padding: 10px;
+}
+/* gallery */
+.custom-row {
+  gap: 20px; /* gap between columns */
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height:400px
 }
 
-.App-link {
-  color: #61dafb;
+.custom-row img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*  */
