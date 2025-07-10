@@ -21,12 +21,12 @@ const Navbar = () => {
 
       <nav className="navbar navbar-expand-lg bg-white border-bottom position-fixed" >
         <div className="container-fluid">
-          <NavLink className="navbar-brand d-flex flex-column align-items-start" to="/">
-            <img src="/assets/images/logo.png" className='logo' alt="" /></NavLink>
-          {/* <NavLink className="navbar-brand d-flex flex-column align-items-start" to="/">
-            <span className="fw-bold fs-4" style={{ color: '#09246c' }}>Atal Utkrisht</span>
+         
+         
+         <NavLink className="navbar-brand d-flex flex-column align-items-start" to="/">
+            <span className="fw-bold fs-4" style={{ color: '#dc2a6b' }}>Atal Utkrisht</span>
             <small className="text-muted"></small>
-          </NavLink> */}
+          </NavLink> 
 
           <button
             className="navbar-toggler"

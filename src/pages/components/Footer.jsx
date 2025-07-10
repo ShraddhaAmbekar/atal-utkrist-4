@@ -7,38 +7,38 @@ import './Footer.css';
 const Footer = () => {
   return (
 
-<footer class="bg-black text-white py-5 px-4 ">
-  <div class="container">
-    <div class="row footer">
+<footer className="bg-black text-white py-5 px-4 ">
+  <div className="container">
+    <div className="row footer">
       
-      <div class="col-md-6 mb-4">
-        <h2 class="mb-4">Atal Utkrisht</h2>
-        <p class="mb-1">123–456–789</p>
-        <p class="mb-1">info@</p>
+      <div className="col-md-6 mb-4">
+        <h2 className="mb-4">Atal Utkrisht</h2>
+        <p className="mb-1">123–456–789</p>
+        <p className="mb-1">info@</p>
         <p>50ghhgfg ghfgg gh fh fh</p>
       </div>
 
-      <div class="col-md-6">
-        <h5 class="mb-3">Connect with Us</h5>
+      <div className="col-md-6">
+        <h5 className="mb-3">Connect with Us</h5>
         <form>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email *</label>
-            <input type="email" class="form-control bg-black border-bottom text-white rounded-0" id="email" placeholder="Enter your email"/>
+          <div className="mb-3">
+            <label for="email" className="form-label">Email *</label>
+            <input type="email" className="form-control bg-black border-bottom text-white rounded-0" id="email" placeholder="Enter your email"/>
           </div>
-          <div class="form-check mb-3">
-            <input class="form-check-input" type="checkbox" id="subscribe"/>
-            <label class="form-check-label" for="subscribe">
+          <div className="form-check mb-3">
+            <input className="form-check-input" type="checkbox" id="subscribe"/>
+            <label className="form-check-label" for="subscribe">
               Yes, subscribe me to your newsletter. *
             </label>
           </div>
-          <button type="submit" class="btn btn-light rounded-pill px-4">Submit</button>
+          <button type="submit" className="btn btn-light rounded-pill px-4">Submit</button>
         </form>
 
-        <div class="mt-4">
-          <a href="#" class="d-block text-white text-decoration-none mb-1">Privacy Policy</a>
-          <a href="#" class="d-block text-white text-decoration-none">Accessibility Statement</a>
+        <div className="mt-4">
+          <a href="#" className="d-block text-white text-decoration-none mb-1">Privacy Policy</a>
+          <a href="#" className="d-block text-white text-decoration-none">Accessibility Statement</a>
         </div>
-          <div class=" mt-5">
+          <div className=" mt-5">
       <small>© 2025 all right reserved </small>
     </div>
       </div>
