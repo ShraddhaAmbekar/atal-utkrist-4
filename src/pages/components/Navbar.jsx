@@ -24,7 +24,7 @@ const Navbar = () => {
          
          
          <NavLink className="navbar-brand d-flex flex-column align-items-start" to="/">
-            <span className="fw-bold fs-4" style={{ color: '#dc2a6b' }}>Atal Utkrisht</span>
+            <span className="fw-bold fs-4" style={{ color: '#dc2a6b', paddingLeft:'100px' }}>Atal Utkrisht</span>
             <small className="text-muted"></small>
           </NavLink> 
 

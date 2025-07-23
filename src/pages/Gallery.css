@@ -1,0 +1,133 @@
+/* Filter Button Styling */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.filter-buttons button{
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+}
+
+.filter-button:hover {
+  background-color: #e0e0e0;
+}
+
+.filter-button.active {
+  background-color: #dc2a6b;
+  color: #fff;
+}
+
+/* Image Grid Layout */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 50px;
+  margin:100px
+}
+
+/* Individual Image Styling */
+.grid-item {
+  position: relative;
+  background: #575656;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+  transition: opacity 0.5s ease-in-out, transform 0.5s;
+}
+
+.grid-item:hover {
+  border:1px solid #dc2a6b;
+  transform: scale(1.1);
+   /* Subtle lift effect */
+}
+
+/* Show overlay on hover */
+.grid-item:hover .overlay {
+  opacity: 1;
+}
+
+/* Animate text on hover */
+.grid-item:hover .overlay-text {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Image Styling */
+.grid-item img.big-img {
+  width: 100%;
+  height:auto;
+  border-radius: 12px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  /* General Spacing & Layout Fixes */
+  .container {
+    padding: 10px;
+  }
+
+  /* Image Grid Layout */
+
+  
+.filter-buttons button{
+  width: 75px;
+  margin-bottom:20px
+}
+
+  .image-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+      margin:0px
+  }
+
+  .grid-item {
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
+  }
+
+  .grid-item img.big-img {
+    height: auto;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  /* Stats Section */
+  .stats-section {
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .stat-box {
+    padding: 20px 10px;
+  }
+
+  .stat-box h2 {
+    font-size: 2rem;
+  }
+
+  .stat-box p {
+    font-size: 1rem;
+  }
+
+  .stat-box a {
+    font-size: 0.95rem;
+  }
+
+  /* Filter Buttons */
+  .filter-buttons {
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 0 5px;
+  }
+
+  .filter-button {
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    border-radius: 16px;
+  }
+}
