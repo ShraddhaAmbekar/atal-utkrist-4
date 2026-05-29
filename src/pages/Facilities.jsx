@@ -13,12 +13,8 @@ const Facilities = () => {
               <h2 className="hero-heading">Facilities</h2>
               <div className='section-text'>
               Equipped with smart classrooms, well-furnished labs, and vibrant activity spaces, our campus supports curiosity, learning, and all-round student development.
-
-
-              </div>
-              <button className='home-btn'>Learn More</button>
+              </div>     
             </div>
-
           </div>
         </div>
       </div>

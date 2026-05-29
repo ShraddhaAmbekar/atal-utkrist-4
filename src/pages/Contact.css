@@ -1,0 +1,68 @@
+.form-wrapper {
+  max-width: 600px;
+  margin: 0px auto 20px auto ;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #000;
+}
+
+.description {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form-group {
+  position: relative;
+  text-align: left;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  font-size: 16px;
+  color: #000;
+  outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #333;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  background-color: #000;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+  margin-top: 15px;
+}

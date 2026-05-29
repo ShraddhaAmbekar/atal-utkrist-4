@@ -10,11 +10,14 @@ import Documents from './pages/Documents';
 import Contact from './pages/Contact';
 import Navbar from './pages/components/Navbar';
 import Footer from './pages/components/Footer';
+import ScrollToTop from './pages/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
+       <ScrollToTop /> 
     <Navbar/>
+    
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />

@@ -5,18 +5,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = () => {
   return (
     <div className='home'>
-      <div className="container mb-5">
+      <div className="container section">
         <div className="row">
           <div className="col-md-5 col-sm-12">
             <div className="hero-container">
               <h1 className="hero-heading"><strong>Where Vision Inspires, Purpose Leads
               </strong></h1>
-              <p className="hero-subtext">AUGIC Thathi Dhanari imparts value-based education, shaping students into responsible, and ethical leaders ready to navigate a changing world.</p>
+              <p className="hero-subtext">Atal Utkrisht Government Inter College Thathi Dhanari imparts value-based education, shaping students into responsible, and ethical leaders ready to navigate a changing world.</p>
 
-              <br />
               <div className='hero-subtext2 '>
-                Nurturing Potential, Inspiring Success
-                AUGIC Thathi Dhanari ,a CBSE-affiliated English-medium school, empowers rural youth through modern education, holistic growth, and values—honoring Atal Bihari Vajpayee’s vision of transforming lives through learning and leadership.
+                <strong>Nurturing Potential</strong>, Inspiring Success
+                Atal Utkrisht Government Inter College Thathi Dhanari ,a CBSE-affiliated English-medium school, empowers rural youth through modern education, holistic growth, and values—honoring Atal Bihari Vajpayee’s vision of transforming lives through learning and leadership.
 
               </div>
               <button className='home-btn'>Explore More</button>
@@ -24,7 +23,7 @@ const Home = () => {
 
           </div>
           <div className="col-md-7 col-sm-12 img-container">
-            <img src="https://thumbs.dreamstime.com/z/vertical-group-smiling-high-school-teenage-students-walking-starting-class-talking-together-diverse-classmates-vertical-296201207.jpg" alt="1" />
+            <img src="/assets/images/School-01.png" alt="1" />
           </div>
         </div>
       </div>
@@ -37,7 +36,7 @@ const Home = () => {
             <div className="section-container">
               <h2 className="section-heading">About Us</h2>
               <div className='section-text'>
-                AUGIC Thathi Dhanari , a CBSE-affiliated school upgraded to senior secondary in 1974, focuses on high-quality, value-based learning. With modern classrooms, skilled faculty, and a holistic curriculum, it cultivates integrity, responsibility, and essential skills—nurturing future-ready learners aligned with the Atal Utkrisht mission.
+                Atal Utkrisht Government Inter College Thathi Dhanari , a CBSE-affiliated school upgraded to senior secondary in 1974, focuses on high-quality, value-based learning. With modern classrooms, skilled faculty, and a holistic curriculum, it cultivates integrity, responsibility, and essential skills—nurturing future-ready learners aligned with the Atal Utkrisht mission.
               </div>
               <button className='home-btn'>Learn More</button>
             </div>
@@ -65,11 +64,11 @@ const Home = () => {
           <div className="col-md-6 col-12">
             <div className="section-container">
               <h2 className="section-heading">
-                What sets AUGIC Thathi Dhanari apart?
+                What sets Atal Utkrisht Government Inter College Thathi Dhanari apart?
 
               </h2>
               <div className='section-text'>
-                As a CBSE-affiliated, English-medium school with a legacy since 1964, AUGICoffers value-based education focused on holistic development. With expert faculty, smart classrooms, science labs, and diverse co-curriculars like NCC and educational tours, we nurture integrity, innovation, and leadership—empowering minds, inspiring futures, and leading change.
+                As a CBSE-affiliated, English-medium school with a legacy since 1964, Atal Utkrisht Government Inter Collegeoffers value-based education focused on holistic development. With expert faculty, smart classrooms, science labs, and diverse co-curriculars like NCC and educational tours, we nurture integrity, innovation, and leadership—empowering minds, inspiring futures, and leading change.
 
 
               </div>

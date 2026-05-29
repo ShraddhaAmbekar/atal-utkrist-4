@@ -12,9 +12,7 @@
   width: 100px;
 }
 
-.filter-button:hover {
-  background-color: #e0e0e0;
-}
+
 
 .filter-button.active {
   background-color: #dc2a6b;
